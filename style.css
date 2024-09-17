@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-right {
+    background-color: darkslategray;
+    height: 80vmin;
+    width: 30vmin;
+}
