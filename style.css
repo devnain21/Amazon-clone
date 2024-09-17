@@ -5,8 +5,13 @@
     text-decoration: none;
     color: white;
 }
+body {
+    overflow: scroll;
+    overflow-x: unset;
+    scroll-behavior: smooth;
+}
 .navbar {
-    height: 11vmin;
+    height: 11vh;
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -15,8 +20,8 @@
 } 
 
 .nav-logo {
-    height: 10vmin;
-    width: 20vmin; 
+    height: 10vh;
+    width: 20vh; 
     display: flex; 
     justify-content: center;
     align-items: center;  
@@ -26,17 +31,17 @@
 .logo1 {
     background-image: url(amz\ logo.png);
     background-size: cover;
-    height: 11vmin;
-    width:20vmin;
-    padding-bottom: 1vmin;
+    height: 11vh;
+    width:20vh;
+    padding-bottom: 1vh;
 }
 
 .border {
-    border: .3vmin solid transparent;
+    border: .3vh solid transparent;
 }
 
 .border:hover {
-    border: .3vmin solid ;
+    border: .3vh solid ;
 }
 
 /* box 2 */
@@ -46,13 +51,13 @@
 }
 .add-1 { 
     color: #cccccc;
-    font-size: 2.2vmin;
-    margin-left: 2.5vmin;
+    font-size: 2.2vh;
+    margin-left: 2.5vh;
 }
 
 .add-2 {
-    margin-left: .2vmin;
-    font-size: 2.8vmin;
+    margin-left: .2vh;
+    font-size: 2.8vh;
     color: #ffffff;
     font-weight: 700;
 }
@@ -66,73 +71,73 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly; 
-    height: 8vmin;
-    width: 130vmin;
-   border: .4vmin solid transparent;
+    height: 8vh;
+    width: 125vh;
+   border: .4vh solid transparent;
     display: flex;
-    border-radius: 1vmin;
+    border-radius: 1vh;
 }
 .nav-search:hover {
-    border: .4vmin solid orange;
+    border: .4vh solid orange;
 }
 .search-select {
     border: none;
     background-color: #ececec;
-    width: 10vmin;
-    padding-left: 1vmin;
-    border-top-left-radius: .8vmin;
-    border-bottom-left-radius: .8vmin;
-    border: .3vmin;
+    width: 10vh;
+    padding-left: 1vh;
+    border-top-left-radius: .8vh;
+    border-bottom-left-radius: .8vh;
+    border: .3vh;
     color: #212a36;
-    font-size: 2.5vmin;
-    width: 8vmin;
+    font-size: 2.5vh;
+    width: 8vh;
 }
 .search-select option {
     color: #0f1111;
-    font-size: 2.5vmin;
+    font-size: 2.5vh;
     overflow-x:scroll;
 }
 
 .search-input {
-    width: 40rem;
-    font-size: 2.8vmin;
+    width: 110vh;
+    font-size: 2.8vh;
     border: none;
     color: #0f1111  ;
 }
 .search-icon {
     display: flex;
-    width: 8vmin;
+    width: 8vh;
 justify-content: center;
 align-items: center;
 background-color: #febd68;
-border-top-right-radius: .8vmin;
-border-bottom-right-radius: .8vmin;
+border-top-right-radius: .8vh;
+border-bottom-right-radius: .8vh;
 }
 
 /* box4 */
 span {
-    font-size: 2vmin;
+    font-size: 2vh;
     display: flex;
     justify-content: center;
 }
 
 .nav2 {
-    font-size: 2.5vmin;
+    font-size: 2.5vh;
     font-weight: 700;
-    line-height: 3vmin;
-   width: 20vmin;
-   height: 4vmin;
+    line-height: 3vh;
+   width: 20vh;
+   height: 4vh;
    display: flex;
    justify-content: center;
 }
 
 .nav-cart i {
-    font-size: 6vmin;
+    font-size: 6vh;
 }
 
 .nav-cart {
-    padding-right: 2vmin;
-    font-size: 3vmin;
+    padding-right: 2vh;
+    font-size: 3vh;
     font-weight: 700;
 }
 
