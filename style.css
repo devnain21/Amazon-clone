@@ -1,9 +1,107 @@
-* {
+body {
+    margin: 2vmin 22vmin 2vmin 22vmin;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width: 450px) {
+ body {
+    margin: 0vmin 0vmin 0vmin 0vmin;
+ }}
+ @media (max-width: 450px)(min-width:600px){
+    body {
+        margin: 2vmin 8vmin 2vmin 8vmin;
+    }
+ }
+              
+
+.main { 
+    background-color: rgb(236, 243, 243);
+    height: 110vmax;
+    width: 100%;
+    display: flex;
+    border: .1vmin solid darkslategray;
+}
+.main-left {
+    width: 25%;
+    background-color:#343C4C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+ 
+}
+.photo {
+    height: 15%;
+    width: 70%;
+    border-radius: 50%;
+    background-image: url(dev.jpg);
+    background-size: cover;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: vmin;
+    height: 25%;
+    width: 80%;
+    background-color: transparent;
+}
+.edu {
+    height: 16%;
+    width: 80%;
+}   
+
+.lang {
+    height: 19%;
+    width: 80%;
+}
+
+.int {
+    height: 16%;
+    width: 80%;
+}
+
+.border {
+    border: .1vmin solid rgb(51, 39, 39);
+    background-color: rgb(69, 42, 92);
+}
+
+.skill ul li {
+    height: fit-content;
+    background-color: #ACB4BC;
+    
+    border-radius: 2vmin;
+    padding: 2vmin;
+    font-size: 2.5vmin;
+    width: fit-content;
+    margin: 1vmin;
+    flex-wrap: nowrap;
+    color: rgb(6, 4, 4);
+}
+.skill ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 0;
     padding: 0;
 }
-.main-right {
-    background-color: darkslategray;
-    height: 80vmin;
-    width: 30vmin;
+h1 { 
+    margin-top: 2vmin;
+    margin-bottom: 1vmin;
+    font-size: x-large;
+}
+h1 i {
+padding: 2vmin;
+}
+.degree {
+    padding-left: 2vmin;    
+    margin-bottom: 2vmin;
+}
+h3 {
+    margin: 2vmin 0vmin 1vmin;
 }
