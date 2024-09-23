@@ -32,7 +32,7 @@ body {
 }
 
 .logo1 {
-  background-image: url(../images/amz\ logo.png);
+  background-image: url(images/amz\ logo.png);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -204,7 +204,7 @@ span {
 .hero-section {
   display: flex;
   height:25vw;
-  background-image: url(/images/Hero\ Image.jpg);
+  background-image: url(images/Hero\ Image.jpg);
   background-size: cover;
   background-position-x: left;
   justify-content: center;
@@ -253,7 +253,7 @@ span {
 .game-acces {
   height: 80%;
   width: 90%;
-  background-image: url(/images/game.png);
+  background-image: url(images/game.png);
   background-size: cover;
 }
 .box-heading {
@@ -266,38 +266,38 @@ span {
 }
 .shop-deal {
   height: 340px;
-  background-image: url(/images/shop-deal.png);
+  background-image: url(images/shop-deal.png);
   background-size: cover;
 }
 .new-home {
   height: 340px;
-  background-image: url(/images/new-home.png);
+  background-image: url(images/new-home.png);
   background-size: cover;
   width: 98%;
 }
 .refresh {
   height: 340px;
-  background-image: url(/images/new-home.png);
+  background-image: url(images/new-home.png);
   background-size: cover;
 }
 .toy {
   height: 340px;
-  background-image: url(/images/toy.png);
+  background-image: url(images/toy.png);
   background-size: cover;
 }
 .beauty {
   height: 340px;
-  background-image: url(/images/beauty.png);
+  background-image: url(images/beauty.png);
   background-size: cover;
 }
 .game {
   height: 340px;
-  background-image: url(/images/game.png);
+  background-image: url(images/game.png);
   background-size: cover;
 }
 .fashion {
   height: 340px;
-  background-image: url(/images/fashion.png);
+  background-image: url(images/fashion.png);
   background-size: cover;
 }
 .see-more:hover {
@@ -347,7 +347,7 @@ li a:hover {
   font-size: 0.9rem;
 }
 .logo {
-  background-image: url(/images/amz\ logo.png);
+  background-image: url(images/amz\ logo.png);
   background-size: cover;
   width: 150px;
   height: 100%;
