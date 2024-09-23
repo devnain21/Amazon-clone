@@ -4,6 +4,7 @@
   border: border-box;
   text-decoration: none;
   color: white;
+  font-size: 1.7vw;
 }
 body {
   overflow: scroll;
@@ -69,6 +70,7 @@ body {
 
 .add-icon {
   display: flex;
+  font-size: 2vw;
 }
 
 /* box 3 */
@@ -117,6 +119,7 @@ body {
   background-color: #febd68;
   border-top-right-radius: 0.4vw;
   border-bottom-right-radius: 0.4vw;
+  font-size: 2vw;
 }
 
 /* box4 */
@@ -159,39 +162,38 @@ span {
   height: 80%;
   width: 8%;
 }
+/* pannel */
 
 .pannel {
   background-color: #212a36;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  height: 4vw;
 }
 
 .pannel-ops {
-  font-size: 0.88rem;
-  flex-grow: 1;
   display: flex;
-  justify-content: flex-start;
-  width: 770px;
+  justify-content: space-between;
   display: flex;
+  width: 60%;
+  
 }
 
 .pannel-all {
-  width: 40px;
-  padding: 8px 9px;
+  width: 5%;
 }
 .pannel-ops a {
   color: #f3f3f3;
-  margin: 5px 0px 6px;
-  padding: 8px 9px;
+
 }
 
 .pannel-deals {
-  font-size: 0.8754rem;
   font-weight: 700;
-  margin: 6px 2px 7px 1px;
-  padding: 8px 9px;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
 }
 /* hero-section */
 
