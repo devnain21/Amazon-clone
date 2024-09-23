@@ -249,54 +249,53 @@ span {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+.photo {
+  width: 95%;
+  height: 80%;
+}
 
 .game-acces {
-  height: 80%;
-  width: 90%;
   background-image: url(images/game.png);
   background-size: cover;
 }
 .box-heading {
-  align-self: center;
-  padding: 5px 5px 2px 5px;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  width: 100%;
+  height: 10%;
+  color: #0f1111;
+  font-size: 1.5vw;
 }
 .see-more {
-  margin: 0px 0px 3px 20px;
+  padding: 3% 5% 5% 5%;
   color: #007185;
 }
 .shop-deal {
-  height: 340px;
   background-image: url(images/shop-deal.png);
   background-size: cover;
 }
 .new-home {
-  height: 340px;
   background-image: url(images/new-home.png);
   background-size: cover;
-  width: 98%;
 }
 .refresh {
-  height: 340px;
   background-image: url(images/refresh.png);
   background-size: cover;
 }
 .toy {
-  height: 340px;
   background-image: url(images/toy.png);
   background-size: cover;
 }
 .beauty {
-  height: 340px;
   background-image: url(images/beauty.png);
   background-size: cover;
 }
 .game {
-  height: 340px;
   background-image: url(images/game.png);
   background-size: cover;
 }
 .fashion {
-  height: 340px;
   background-image: url(images/fashion.png);
   background-size: cover;
 }
@@ -309,10 +308,10 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 3.2vw;
   background-color: #262f3a;
   color: white;
-  margin-top: 25px;
+  margin-top: 1.6vw;
 }
 
 .foot-pannel1:hover {
@@ -320,51 +319,51 @@ span {
 }
 .footpannel2 {
   background-color: #1d2631;
-  height: 350px;
+  height: 32vw;
   display: flex;
   justify-content: space-around;
 }
 .foot-list,
 .foot-list li {
   list-style: none;
-  margin-top: 30px;
+  margin-top: 1.8vw;
 }
 
 li a:hover {
   text-decoration: underline;
 }
 .foot-list li {
-  margin-top: 15px;
+  margin-top: 1.3vw;
   font-size: 0.8rem;
 }
 .foot-pannel3 {
-  border-top: 1px solid #5c6673;
-  height: 90px;
+  border-top: .15vw solid #5c6673;
+  height: 6vw;
   background-color: #1d2631;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 1vw;
 }
 .logo {
   background-image: url(images/amz\ logo.png);
   background-size: cover;
-  width: 150px;
+  width: 10vw;
   height: 100%;
-  margin-right: 60px;
+  margin-right: 6vw;
   border: #2b3746;
 }
 .foot-pannel4 {
-  height: 50px;
+  height: 4vw;
   background-color: #0f1111;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 0.78rem;
+  font-size: .6vw;
 }
 .copyright a {
-  margin-right: 10px;
+  margin-right: .8vw;
 }
 .copyright a:hover {
   text-decoration: underline;
