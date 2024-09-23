@@ -32,7 +32,7 @@ body {
 }
 
 .logo1 {
-  background-image: url(/images/amz\ logo.png);
+  background-image: url(../images/amz\ logo.png);
   background-size: cover;
   height: 100%;
   width: 100%;
