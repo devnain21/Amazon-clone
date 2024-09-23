@@ -1,17 +1,17 @@
 * {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:sans-serif;
   border: border-box;
   text-decoration: none;
   color: white;
-  font-size: 1.7vw;
+  font-size: 1.2vw;
 }
 body {
   overflow: scroll;
   overflow-x: unset;
   scroll-behavior: smooth;
   width: 100vw;
-  height: 200vw;
+  height: auto;
 }
 .navbar {
   height: 5vw;
@@ -40,11 +40,11 @@ body {
 }
 
 .border {
-  border: .1em solid transparent;
+  border: .1vws solid transparent;
 }
 
 .border:hover {
-  border: .1em solid;
+  border: .1vw solid;
 }
 
 /* box 2 */
@@ -170,48 +170,53 @@ span {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 4vw;
+  height: 3vw;
 }
 
 .pannel-ops {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
-  width: 60%;
+  width: 75%;
   
 }
 
 .pannel-all {
-  width: 5%;
+  width: 3%;
+  padding: .8%;
+  margin-left: 1%;
 }
 .pannel-ops a {
   color: #f3f3f3;
+  padding: 1%;
+  text-align: center;
+
 
 }
 
 .pannel-deals {
   font-weight: 700;
-  display: flex;
-  justify-content: flex-end;
-  width: 30%;
+   width: 14%;
+  padding: .8%;
 }
 /* hero-section */
 
 .hero-section {
   display: flex;
-  height: 300px;
+  height:25vw;
   background-image: url(/images/Hero\ Image.jpg);
   background-size: cover;
   background-position-x: left;
   justify-content: center;
   align-items: flex-end;
+  width: 100vw;
 }
 .hero-msg {
   position: relative;
-  bottom: 30px;
+  bottom: 2vw;
   background-color: white;
-  height: 40px;
-  width: 97%;
+  height: 3vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,18 +231,18 @@ span {
 
 /* Shop Section */
 .box {
-  height: 400px;
+  height: 35vw;
   color: #0f1111;
   width: 23%;
-  margin-top: 10px;
+  margin: .7vw;
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .shop-section {
-  height: 1000px;
+  height:auto;
+  width: 100vw;
   background-color: #cccccc;
   display: flex;
   justify-content: space-evenly;
@@ -246,7 +251,8 @@ span {
 }
 
 .game-acces {
-  height: 340px;
+  height: 80%;
+  width: 90%;
   background-image: url(/images/box1.png);
   background-size: cover;
 }
